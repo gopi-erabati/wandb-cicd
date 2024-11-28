@@ -1,2 +1,2 @@
 # wandb-cicd
-CI/CD for Machine Learning (GitOps) Course
+CI/CD for Machine Learning (GitOps) Course.
