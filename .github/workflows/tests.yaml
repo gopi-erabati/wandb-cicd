@@ -16,10 +16,10 @@ jobs:
     steps:
 
       - name: Copy Repository Contents
-        uses: actions/checkout@main   
+        uses: actions/checkout@v3  
    
       - name: Install Conda environment with Micromamba
-        uses: mamba-org/provision-with-micromamba@main
+        uses: mamba-org/setup-micromamba@v2
         with:
           environment-file: test-example/conda-environment.yaml
           environment-name: course
